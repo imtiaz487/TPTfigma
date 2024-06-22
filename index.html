@@ -170,6 +170,11 @@
             </div>
         </div>
     </section>
-    <script src="index.js"></script>
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
 </body>
 </html>
